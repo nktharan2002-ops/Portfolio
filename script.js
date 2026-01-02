@@ -50,28 +50,28 @@ const projects = [
         description: "Complete pharmacy management solution with inventory tracking, billing, and customer management. Used by .NET and MySQL.",
         status: "Completed",
         statusClass: "status-completed",
-        image: "Pharmacy.JPG" // Direct path to your image
+        image: "Pharmacy.jpg" // Direct path to your image
     },
     {
         title: "AI Food Quality Prediction",
         description: "Uses food label data and AI to predict food quality with high accuracy. Built with Python and machine learning libraries and flutter for front-end.",
         status: "Working Project",
         statusClass: "status-working",
-        image: "Food lable.JPG" // Ensure this file exists in the same folder
+        image: "Food label.jpg" // Ensure this file exists in the same folder
     },
     {
         title: "Portfolio Website",
         description: "Personal portfolio website with modern animations and responsive design. Built with HTML, CSS, and JavaScript.",
         status: "Completed",
         statusClass: "status-completed",
-        image: "Portfolio.JPG" // Ensure this file exists in the same folder
+        image: "Portfolio.jpg" // Ensure this file exists in the same folder
     },
     {
         title: "Faculty Budget Management",
         description: "System to manage faculty budget, expenses, and financial reporting. Built with PHP and MySQL.",
         status: "Working Project",
         statusClass: "status-working",
-        image: "Budget.JPG" // Ensure this file exists in the same folder
+        image: "Budget.jpg" // Ensure this file exists in the same folder
     }
 ];
 
