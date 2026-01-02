@@ -57,7 +57,7 @@ const projects = [
         description: "Uses food label data and AI to predict food quality with high accuracy. Built with Python and machine learning libraries and flutter for front-end.",
         status: "Working Project",
         statusClass: "status-working",
-        image: "Food label.jpg" // Ensure this file exists in the same folder
+        image: "Food_label.jpg" // Ensure this file exists in the same folder
     },
     {
         title: "Portfolio Website",
