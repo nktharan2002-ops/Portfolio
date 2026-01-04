@@ -874,6 +874,30 @@ p {
         flex-direction: column;
         gap: 15px;
     }
+
+    .about-stats {
+        flex-direction: column;
+        gap: 30px; /* Reduced spacing for tighter mobile layout */
+        width: 100%; /* Ensure full width */
+        margin-top: 40px;
+    }
+
+    .stat-item {
+        padding: 20px; /* Reduced padding for mobile */
+        width: 100%; /* Ensure each item takes full width */
+        border-radius: 12px;
+        border: 1px solid rgba(108, 99, 255, 0.1);
+        background: rgba(255, 255, 255, 0.03);
+    }
+
+    .stat-number {
+        font-size: 2rem; /* Slightly smaller for mobile */
+        margin-bottom: 8px;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 480px) {
