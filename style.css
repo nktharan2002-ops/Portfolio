@@ -356,10 +356,11 @@ p {
 
 .about-stats {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
     gap: 50px;
     justify-content: center;
-    margin-top: 40px; /* Adjust as needed */
+    margin-top: 60px;
+    transition: all 0.3s ease;
 }
 
 .stat-item {
@@ -877,21 +878,22 @@ p {
 
     .about-stats {
         flex-direction: column;
-        gap: 30px; /* Reduced spacing for tighter mobile layout */
-        width: 100%; /* Ensure full width */
-        margin-top: 40px;
+        gap: 30px;
+        width: 100%;
+        align-items: center;
     }
 
     .stat-item {
-        padding: 20px; /* Reduced padding for mobile */
-        width: 100%; /* Ensure each item takes full width */
+        width: 100%; /* Full width on mobile */
+        padding: 20px;
         border-radius: 12px;
         border: 1px solid rgba(108, 99, 255, 0.1);
         background: rgba(255, 255, 255, 0.03);
+        text-align: center;
     }
 
     .stat-number {
-        font-size: 2rem; /* Slightly smaller for mobile */
+        font-size: 2rem;
         margin-bottom: 8px;
     }
 
