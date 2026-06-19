@@ -55,8 +55,8 @@ const projects = [
     {
         title: "AI Food Quality Prediction",
         description: "Uses food label data and AI to predict food quality with high accuracy. Built with Python and machine learning libraries and flutter for front-end.",
-        status: "Working Project",
-        statusClass: "status-working",
+        status: "Completed",
+        statusClass: "status-completed",
         image: "FoodLabel.jpg" // Ensure this file exists in the same folder
     },
     {
@@ -69,8 +69,8 @@ const projects = [
     {
         title: "Faculty Budget Management",
         description: "System to manage faculty budget, expenses, and financial reporting. Built with PHP and MySQL.",
-        status: "Working Project",
-        statusClass: "status-working",
+        status: "Completed",
+        statusClass: "status-completed",
         image: "Budget.jpg" // Ensure this file exists in the same folder
     }
 ];
